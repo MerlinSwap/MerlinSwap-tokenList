@@ -12,16 +12,28 @@ export interface TokenInfo {
 const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
-    // {
-    //     name: "FLON token",
-    //     symbol: TokenSymbol.FLONZKFair,
-    //     chains: [ChainId.ZKFair],
-    //     icon: baseURL + 'flon.png',
-    //     contracts: {
-    //         [ChainId.ZKFair]: {
-    //             address: '0xA111328a3dc9650f07653944EE2e2a88c10C2ad8',
-    //             decimal: 18, 
-    //         },
-    //     },
-    // },
+    {
+        name: "Bitcoin",
+        symbol: TokenSymbol.BTC,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'btc.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xF6D226f9Dc15d9bB51182815b320D3fBE324e1bA', //WBTC
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Wrapped BTC",
+        symbol: TokenSymbol.WBTC,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'wbtc.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xF6D226f9Dc15d9bB51182815b320D3fBE324e1bA', 
+                decimal: 18, 
+            },
+        },
+    },
 ]

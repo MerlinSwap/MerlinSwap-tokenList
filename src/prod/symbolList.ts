@@ -1,5 +1,4 @@
 export enum TokenSymbol {
-POOD='POOD',
-MTG='MTG',
-ARBIARB='ARBI',
+BTC='BTC',
+WBTC='WBTC',
 }

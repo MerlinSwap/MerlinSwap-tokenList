@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
+    "contracts": {
+      "4200": {
+        "address": "0xF6D226f9Dc15d9bB51182815b320D3fBE324e1bA",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wbtc.png",
+    "contracts": {
+      "4200": {
+        "address": "0xF6D226f9Dc15d9bB51182815b320D3fBE324e1bA",
+        "decimal": 18
+      }
+    }
+  }
+]
