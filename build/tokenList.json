@@ -40,5 +40,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "BIUU Token",
+    "symbol": "BIUU",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/biuu.png",
+    "contracts": {
+      "4200": {
+        "address": "0x3cFD33fD6f670ebBf63434D4b09DcA6D403aEFea",
+        "decimal": 18
+      }
+    }
   }
 ]

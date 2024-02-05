@@ -48,4 +48,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "BIUU Token",
+        symbol: TokenSymbol.BIUU,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'biuu.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x3cFD33fD6f670ebBf63434D4b09DcA6D403aEFea', 
+                decimal: 18, 
+            },
+        },
+    },
 ]
