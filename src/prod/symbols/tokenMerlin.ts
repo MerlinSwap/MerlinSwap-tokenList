@@ -3,4 +3,5 @@ export enum TokenSymbol {
     WBTC = 'WBTC',
     IUSD = 'iUSD',
     BIUU = 'BIUU',
+    HUHU = 'HUHU',
 }

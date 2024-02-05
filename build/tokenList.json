@@ -54,5 +54,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "HUHU CAT",
+    "symbol": "HUHU",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/huhu.png",
+    "contracts": {
+      "4200": {
+        "address": "0x7a677e59dC2C8a42d6aF3a62748c5595034A008b",
+        "decimal": 18
+      }
+    }
   }
 ]

@@ -60,4 +60,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "HUHU CAT",
+        symbol: TokenSymbol.HUHU,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'huhu.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x7a677e59dC2C8a42d6aF3a62748c5595034A008b', 
+                decimal: 18, 
+            },
+        },
+    },
 ]
