@@ -28,7 +28,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         chains: [ChainId.Merlin],
-        icon: baseURL + 'wbtc.png',
+        icon: baseURL + 'btc.png',
         contracts: {
             [ChainId.Merlin]: {
                 address: '0xF6D226f9Dc15d9bB51182815b320D3fBE324e1bA', 
