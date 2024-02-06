@@ -4,4 +4,6 @@ WBTC='WBTC',
 IUSD='iUSD',
 BIUU='BIUU',
 HUHU='HUHU',
+WIZARD='Wizard',
+MERLINPAD='MerlinPad',
 }

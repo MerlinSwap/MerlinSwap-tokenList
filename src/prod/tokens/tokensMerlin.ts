@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "HUHU CAT",
+        symbol: TokenSymbol.HUHU,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'huhu.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x7a677e59dC2C8a42d6aF3a62748c5595034A008b', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "BIUU Token",
         symbol: TokenSymbol.BIUU,
         chains: [ChainId.Merlin],
@@ -61,13 +73,25 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "HUHU CAT",
-        symbol: TokenSymbol.HUHU,
+        name: "Wizard Token",
+        symbol: TokenSymbol.WIZARD,
         chains: [ChainId.Merlin],
-        icon: baseURL + 'huhu.png',
+        icon: baseURL + 'wizard.png',
         contracts: {
             [ChainId.Merlin]: {
-                address: '0x7a677e59dC2C8a42d6aF3a62748c5595034A008b', 
+                address: '0x2503d56065a1369d7270dc2038c16a113699454d', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Merlin Pad Token",
+        symbol: TokenSymbol.MERLINPAD,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'merlinpad.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x5782d6FdDFE62cb1650FE42582Ef8E37EAEA03E2', 
                 decimal: 18, 
             },
         },
