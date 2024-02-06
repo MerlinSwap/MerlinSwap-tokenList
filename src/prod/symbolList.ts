@@ -6,4 +6,5 @@ BIUU='BIUU',
 HUHU='HUHU',
 WIZARD='Wizard',
 MERLINPAD='MerlinPad',
+BALL='BALL',
 }

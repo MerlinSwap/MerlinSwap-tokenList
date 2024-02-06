@@ -6,4 +6,5 @@ export enum TokenSymbol {
     HUHU = 'HUHU',
     WIZARD = 'Wizard',
     MERLINPAD ='MerlinPad',
+    BALL = 'BALL',
 }

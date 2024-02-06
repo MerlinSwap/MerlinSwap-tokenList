@@ -96,5 +96,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "Merlin Ball Token",
+    "symbol": "BALL",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ball.png",
+    "contracts": {
+      "4200": {
+        "address": "0xF18781109992b12580A646ed0392a6Fc50318209",
+        "decimal": 18
+      }
+    }
   }
 ]

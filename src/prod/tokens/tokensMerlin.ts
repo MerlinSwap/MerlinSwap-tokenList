@@ -96,4 +96,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Merlin Ball Token",
+        symbol: TokenSymbol.BALL,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'ball.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xF18781109992b12580A646ed0392a6Fc50318209', 
+                decimal: 18, 
+            },
+        },
+    },
 ]
