@@ -108,4 +108,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Owl Token",
+        symbol: TokenSymbol.OWL,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'owl.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x62e99191071fc1c5947cf1e21aa95708dcc51adb', 
+                decimal: 18, 
+            },
+        },
+    },
 ]
