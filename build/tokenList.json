@@ -124,5 +124,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "恭喜发财好运来",
+    "symbol": "恭喜发财",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gxfc.png",
+    "contracts": {
+      "4200": {
+        "address": "0x01B1DD8DAB8e8f61891c8367f9e622F4b6313cf8",
+        "decimal": 9
+      }
+    }
   }
 ]

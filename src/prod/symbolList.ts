@@ -8,4 +8,5 @@ WIZARD='Wizard',
 MERLINPAD='MerlinPad',
 BALL='BALL',
 OWL='Owl',
+GXFC='恭喜发财',
 }

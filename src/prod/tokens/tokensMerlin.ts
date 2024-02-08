@@ -120,4 +120,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "恭喜发财好运来",
+        symbol: TokenSymbol.GXFC,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'gxfc.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x01B1DD8DAB8e8f61891c8367f9e622F4b6313cf8', 
+                decimal: 9, 
+            },
+        },
+    },
 ]
