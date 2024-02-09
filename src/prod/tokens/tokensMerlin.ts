@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Jeff Token",
+        symbol: TokenSymbol.JEFF,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'jeff.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xd79f579d7e34782465863a6f837b2692bda7b989', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "BIUU Token",
         symbol: TokenSymbol.BIUU,
         chains: [ChainId.Merlin],
@@ -120,16 +132,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "恭喜发财好运来",
-        symbol: TokenSymbol.GXFC,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'gxfc.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x01B1DD8DAB8e8f61891c8367f9e622F4b6313cf8', 
-                decimal: 9, 
-            },
-        },
-    },
+    // {
+    //     name: "恭喜发财好运来",
+    //     symbol: TokenSymbol.GXFC,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'gxfc.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x01B1DD8DAB8e8f61891c8367f9e622F4b6313cf8', 
+    //             decimal: 9, 
+    //         },
+    //     },
+    // },
 ]
