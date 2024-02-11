@@ -112,6 +112,20 @@
     }
   },
   {
+    "name": "Merlin Meme Token",
+    "symbol": "MERLIN",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/merlinmeme.png",
+    "contracts": {
+      "4200": {
+        "address": "0x402b2e84CB09b08e18Bd47636594Afb789401ddc",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Merlin Ball Token",
     "symbol": "BALL",
     "chains": [
