@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "MRC404 Token",
+        symbol: TokenSymbol.MRC404,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mrc404.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x6df1b05ac85007bcd4f25aca7ab505415b3d51dc', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "BIUU Token",
         symbol: TokenSymbol.BIUU,
         chains: [ChainId.Merlin],

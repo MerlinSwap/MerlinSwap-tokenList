@@ -70,6 +70,20 @@
     }
   },
   {
+    "name": "MRC404 Token",
+    "symbol": "MRC404",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mrc404.png",
+    "contracts": {
+      "4200": {
+        "address": "0x6df1b05ac85007bcd4f25aca7ab505415b3d51dc",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "BIUU Token",
     "symbol": "BIUU",
     "chains": [
