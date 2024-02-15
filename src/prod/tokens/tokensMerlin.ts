@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Elixir Token",
+        symbol: TokenSymbol.ELXR,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'elxr.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xa49fc6e5bbb77622b96bf242fee4028b8b61ffa0', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "MRC404 Token",
         symbol: TokenSymbol.MRC404,
         chains: [ChainId.Merlin],

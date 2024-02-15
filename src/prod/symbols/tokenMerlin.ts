@@ -5,6 +5,7 @@ export enum TokenSymbol {
     BIUU = 'BIUU',
     HUHU = 'HUHU',
     JEFF = 'JEFF',
+    ELXR = 'ELXR',
     MRC404 = 'MRC404',
     WIZARD = 'Wizard',
     MERLINPAD ='MerlinPad',
