@@ -12,4 +12,5 @@ export enum TokenSymbol {
     BALL = 'BALL',
     OWL = 'Owl',
     MERLINMEME = 'MERLIN',
+    DRAGON = 'DRAGON',
 }

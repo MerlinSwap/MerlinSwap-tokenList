@@ -84,6 +84,20 @@
     }
   },
   {
+    "name": "DRAGON Token",
+    "symbol": "DRAGON",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dragonmerlin.png",
+    "contracts": {
+      "4200": {
+        "address": "0x1dd67628db8661186de74a3adc6e3f44def5709e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MRC404 Token",
     "symbol": "MRC404",
     "chains": [

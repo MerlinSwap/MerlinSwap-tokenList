@@ -85,6 +85,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "DRAGON Token",
+        symbol: TokenSymbol.DRAGON,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'dragonmerlin.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x1dd67628db8661186de74a3adc6e3f44def5709e', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "MRC404 Token",
         symbol: TokenSymbol.MRC404,
         chains: [ChainId.Merlin],
