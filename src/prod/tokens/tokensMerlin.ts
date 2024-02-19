@@ -145,7 +145,7 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "Merlin Meme Token",
+        name: "Merlin Meme Token (Meme)",
         symbol: TokenSymbol.MERLINMEME,
         chains: [ChainId.Merlin],
         icon: baseURL + 'merlinmeme.png',

@@ -11,6 +11,6 @@ export enum TokenSymbol {
     MERLINPAD ='MerlinPad',
     BALL = 'BALL',
     OWL = 'Owl',
-    MERLINMEME = 'MERLIN',
+    MERLINMEME = 'MERLIN(Meme)',
     DRAGON = 'DRAGON',
 }
