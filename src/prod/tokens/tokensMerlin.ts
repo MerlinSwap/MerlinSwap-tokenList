@@ -97,6 +97,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "King Arthur Token",
+        symbol: TokenSymbol.ART,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'art.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xdbbc61004663f0116dd5ae5751436c722b7168e6', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "MRC404 Token",
         symbol: TokenSymbol.MRC404,
         chains: [ChainId.Merlin],

@@ -98,6 +98,20 @@
     }
   },
   {
+    "name": "King Arthur Token",
+    "symbol": "ART",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/art.png",
+    "contracts": {
+      "4200": {
+        "address": "0xdbbc61004663f0116dd5ae5751436c722b7168e6",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MRC404 Token",
     "symbol": "MRC404",
     "chains": [
