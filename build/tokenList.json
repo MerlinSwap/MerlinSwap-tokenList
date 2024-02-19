@@ -154,8 +154,8 @@
     }
   },
   {
-    "name": "Merlin Meme Token",
-    "symbol": "MERLIN",
+    "name": "Merlin Meme Token (Meme)",
+    "symbol": "MERLIN(Meme)",
     "chains": [
       4200
     ],
