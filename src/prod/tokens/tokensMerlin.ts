@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged BRC20 VOYA",
+        symbol: TokenSymbol.VOYA,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'voya.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x480e158395cc5b41e5584347c495584ca2caf78d', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Jeff Token",
         symbol: TokenSymbol.JEFF,
         chains: [ChainId.Merlin],

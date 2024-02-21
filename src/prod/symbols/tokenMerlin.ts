@@ -4,6 +4,7 @@ export enum TokenSymbol {
     IUSD = 'iUSD',
     BIUU = 'BIUU',
     HUHU = 'HUHU',
+    VOYA = 'VOYA',
     JEFF = 'JEFF',
     ELXR = 'ELXR',
     MRC404 = 'MRC404',
