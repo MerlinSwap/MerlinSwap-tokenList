@@ -48,4 +48,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "VOYA",
+        symbol: TokenSymbol.VOYAMerlin,
+        chains: [ChainId.MerlinTest],
+        icon: baseURL + 'voya.png',
+        contracts: {
+            [ChainId.MerlinTest]: {
+                address: '0x60FE1bE62fa2082b0897eA87DF8D2CfD45185D30', 
+                decimal: 18,
+            },
+        },
+    },
 ]

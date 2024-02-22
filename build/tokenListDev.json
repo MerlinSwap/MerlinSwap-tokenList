@@ -40,5 +40,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "VOYA",
+    "symbol": "VOYA",
+    "chains": [
+      686868
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/voya.png",
+    "contracts": {
+      "686868": {
+        "address": "0x60FE1bE62fa2082b0897eA87DF8D2CfD45185D30",
+        "decimal": 18
+      }
+    }
   }
 ]
