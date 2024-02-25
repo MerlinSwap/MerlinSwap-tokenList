@@ -181,6 +181,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "SPELL Token",
+        symbol: TokenSymbol.SPELL,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'spell.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xcd88e36a9ce94e4c36f08b0b8086a80639e11e7a', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Merlin Ball Token",
         symbol: TokenSymbol.BALL,
         chains: [ChainId.Merlin],

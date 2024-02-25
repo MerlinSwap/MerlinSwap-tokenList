@@ -196,6 +196,20 @@
     }
   },
   {
+    "name": "SPELL Token",
+    "symbol": "SPELL",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/spell.png",
+    "contracts": {
+      "4200": {
+        "address": "0xcd88e36a9ce94e4c36f08b0b8086a80639e11e7a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Merlin Ball Token",
     "symbol": "BALL",
     "chains": [
