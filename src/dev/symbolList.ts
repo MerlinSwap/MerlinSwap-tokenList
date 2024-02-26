@@ -4,4 +4,5 @@ WBTCMerlin='WBTC',
 USDTMerlin='USDT',
 VOYAMerlin='VOYA',
 HUHUMerlin='HUHU',
+USDCMerlin='USDC',
 }

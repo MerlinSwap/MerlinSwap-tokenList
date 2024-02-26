@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCMerlin,
+        chains: [ChainId.MerlinTest],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.MerlinTest]: {
+                address: '0x83F046B90D556C401c9C631B65e1eD3B373EeaFb', 
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "HUHU CAT",
         symbol: TokenSymbol.HUHUMerlin,
         chains: [ChainId.MerlinTest],

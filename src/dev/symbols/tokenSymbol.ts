@@ -4,4 +4,5 @@ export enum TokenSymbol {
     USDTMerlin = 'USDT',
     VOYAMerlin = 'VOYA',
     HUHUMerlin = 'HUHU',
+    USDCMerlin = 'USDC',
 }
