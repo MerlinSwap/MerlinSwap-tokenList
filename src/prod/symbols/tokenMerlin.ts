@@ -16,4 +16,6 @@ export enum TokenSymbol {
     MERLINMEME = 'MERLIN(Meme)',
     DRAGON = 'DRAGON',
     ART = 'ART',
+    MERLINBOX = 'MerlinBox',
+    MERLINLAND = 'MerlinLand',
 }

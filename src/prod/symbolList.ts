@@ -16,4 +16,6 @@ OWL='Owl',
 MERLINMEME='MERLIN(Meme)',
 DRAGON='DRAGON',
 ART='ART',
+MERLINBOX='MerlinBox',
+MERLINLAND='MerlinLand',
 }

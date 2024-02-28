@@ -205,6 +205,30 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Merlin Box Token",
+        symbol: TokenSymbol.MERLINBOX,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'merlinbox.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x63c2e663a6cfb0f5568c84a1c8134acbe1b88bec', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Merlin Land Token",
+        symbol: TokenSymbol.MERLINLAND,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'merlinland.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xf0db39a5e37eb2df2d2b968f3fc8e5d7a9969dea', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Owl Token",
         symbol: TokenSymbol.OWL,
         chains: [ChainId.Merlin],

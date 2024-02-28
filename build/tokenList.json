@@ -224,6 +224,34 @@
     }
   },
   {
+    "name": "Merlin Box Token",
+    "symbol": "MerlinBox",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/merlinbox.png",
+    "contracts": {
+      "4200": {
+        "address": "0x63c2e663a6cfb0f5568c84a1c8134acbe1b88bec",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Merlin Land Token",
+    "symbol": "MerlinLand",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/merlinland.png",
+    "contracts": {
+      "4200": {
+        "address": "0xf0db39a5e37eb2df2d2b968f3fc8e5d7a9969dea",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Owl Token",
     "symbol": "Owl",
     "chains": [
