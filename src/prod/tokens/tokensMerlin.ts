@@ -133,6 +133,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "RAT404 Token",
+        symbol: TokenSymbol.RAT404,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'rat404.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xbf108e20fd47995b2b1a316db76c1c145e5bdeac', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "BIUU Token",
         symbol: TokenSymbol.BIUU,
         chains: [ChainId.Merlin],

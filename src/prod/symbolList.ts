@@ -18,4 +18,5 @@ DRAGON='DRAGON',
 ART='ART',
 MERLINBOX='MerlinBox',
 MERLINLAND='MerlinLand',
+RAT404='RAT404',
 }
