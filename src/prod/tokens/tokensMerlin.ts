@@ -84,18 +84,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "The Grand VOYA Sailor",
-        symbol: TokenSymbol.SAILOR,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'sailor.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0xe380a2d2477799fff336a2937ea00a29a84a22c9', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "The Grand VOYA Sailor",
+    //     symbol: TokenSymbol.SAILOR,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'sailor.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0xe380a2d2477799fff336a2937ea00a29a84a22c9', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     {
         name: "Elixir Token",
         symbol: TokenSymbol.ELXR,
