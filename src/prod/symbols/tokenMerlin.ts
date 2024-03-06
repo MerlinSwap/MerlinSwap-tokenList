@@ -19,4 +19,5 @@ export enum TokenSymbol {
     MERLINBOX = 'MerlinBox',
     MERLINLAND = 'MerlinLand',
     RAT404 = 'RAT404',
+    SAILOR = 'Sailor',
 }
