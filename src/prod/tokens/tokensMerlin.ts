@@ -84,30 +84,19 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "DragonBall Token",
-        symbol: TokenSymbol.DRAGONBALL,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'dragonball.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x8de7eea34a72059324dbbed7f2f49fb2190abd56', 
-                decimal: 18, 
-            },
-        },
-    },
     // {
-    //     name: "The Grand VOYA Sailor",
-    //     symbol: TokenSymbol.SAILOR,
+    //     name: "DragonBall Token",
+    //     symbol: TokenSymbol.DRAGONBALL,
     //     chains: [ChainId.Merlin],
-    //     icon: baseURL + 'sailor.png',
+    //     icon: baseURL + 'dragonball.png',
     //     contracts: {
     //         [ChainId.Merlin]: {
-    //             address: '0xe380a2d2477799fff336a2937ea00a29a84a22c9', 
+    //             address: '0x8de7eea34a72059324dbbed7f2f49fb2190abd56', 
     //             decimal: 18, 
     //         },
     //     },
     // },
+   
     {
         name: "Elixir Token",
         symbol: TokenSymbol.ELXR,
@@ -212,6 +201,18 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Merlin]: {
                 address: '0x402b2e84CB09b08e18Bd47636594Afb789401ddc', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "The Grand VOYA Sailor",
+        symbol: TokenSymbol.SAILOR,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'sailor.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xe380a2d2477799fff336a2937ea00a29a84a22c9', 
                 decimal: 18, 
             },
         },
