@@ -84,6 +84,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "DragonBall Token",
+        symbol: TokenSymbol.DRAGONBALL,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'dragonball.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x8de7eea34a72059324dbbed7f2f49fb2190abd56', 
+                decimal: 18, 
+            },
+        },
+    },
     // {
     //     name: "The Grand VOYA Sailor",
     //     symbol: TokenSymbol.SAILOR,
