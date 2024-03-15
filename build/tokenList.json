@@ -70,6 +70,20 @@
     }
   },
   {
+    "name": "Bridged BRC20 MNER",
+    "symbol": "MNER",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mner.png",
+    "contracts": {
+      "4200": {
+        "address": "0x27622B326Ff3ffa7dc10AE291800c3073b55AA39",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Jeff Token",
     "symbol": "JEFF",
     "chains": [

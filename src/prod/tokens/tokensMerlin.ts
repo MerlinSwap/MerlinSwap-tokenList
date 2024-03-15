@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged BRC20 MNER",
+        symbol: TokenSymbol.MNER,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mner.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x27622B326Ff3ffa7dc10AE291800c3073b55AA39', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Jeff Token",
         symbol: TokenSymbol.JEFF,
         chains: [ChainId.Merlin],
