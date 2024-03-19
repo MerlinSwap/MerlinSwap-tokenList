@@ -301,4 +301,16 @@ export const tokens: TokenInfo[] = [
     //         },
     //     },
     // },
+    {
+        name: "Drak Token",
+        symbol: TokenSymbol.DRAK,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'drak.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xc69a8ef7da38fb6bf035c38ea4a0a5e0a529378d', 
+                decimal: 18, 
+            },
+        },
+    },
 ]

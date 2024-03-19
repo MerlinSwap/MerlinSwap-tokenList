@@ -306,5 +306,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "Drak Token",
+    "symbol": "DRAK",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/drak.png",
+    "contracts": {
+      "4200": {
+        "address": "0xc69a8ef7da38fb6bf035c38ea4a0a5e0a529378d",
+        "decimal": 18
+      }
+    }
   }
 ]
