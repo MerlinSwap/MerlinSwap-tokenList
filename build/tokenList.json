@@ -28,6 +28,20 @@
     }
   },
   {
+    "name": "Merlin's Seal BTC",
+    "symbol": "M-BTC",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mbtc.svg",
+    "contracts": {
+      "4200": {
+        "address": "0xb880fd278198bd590252621d4cd071b1842e9bcd",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "iZUMi Bond USD",
     "symbol": "iUSD",
     "chains": [

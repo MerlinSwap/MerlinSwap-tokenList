@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Merlin's Seal BTC",
+        symbol: TokenSymbol.MBTC,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mbtc.svg',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xb880fd278198bd590252621d4cd071b1842e9bcd', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         chains: [ChainId.Merlin],
