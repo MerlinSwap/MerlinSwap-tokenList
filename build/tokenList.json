@@ -112,6 +112,20 @@
     }
   },
   {
+    "name": "Influpia Token",
+    "symbol": "ING",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ing.svg",
+    "contracts": {
+      "4200": {
+        "address": "0x8fef71cb438bf47cee6b67db1928f8f7269dfdc7",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Elixir Token",
     "symbol": "ELXR",
     "chains": [

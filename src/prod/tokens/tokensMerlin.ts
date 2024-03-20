@@ -108,6 +108,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Influpia Token",
+        symbol: TokenSymbol.ING,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'ing.svg',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x8fef71cb438bf47cee6b67db1928f8f7269dfdc7', 
+                decimal: 18, 
+            },
+        },
+    },
     // {
     //     name: "DragonBall Token",
     //     symbol: TokenSymbol.DRAGONBALL,
