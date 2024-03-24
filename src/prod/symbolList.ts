@@ -25,4 +25,5 @@ RAT404='RAT404',
 SAILOR='Sailor',
 DRAGONBALL='DragonBall',
 DRAK='DRAK',
+RUFI='RUFI',
 }

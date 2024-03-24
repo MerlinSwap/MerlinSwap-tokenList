@@ -25,4 +25,5 @@ export enum TokenSymbol {
     SAILOR = 'Sailor',
     DRAGONBALL = 'DragonBall',
     DRAK = 'DRAK',
+    RUFI = 'RUFI',
 }

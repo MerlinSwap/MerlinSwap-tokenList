@@ -85,6 +85,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged BRC20 RUFI",
+        symbol: TokenSymbol.RUFI,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'rufi.svg',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x9bd60d6FC99843207B8149f9190438C1F81BDdcD', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged BRC20 MNER",
         symbol: TokenSymbol.MNER,
         chains: [ChainId.Merlin],

@@ -84,6 +84,20 @@
     }
   },
   {
+    "name": "Bridged BRC20 RUFI",
+    "symbol": "RUFI",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rufi.svg",
+    "contracts": {
+      "4200": {
+        "address": "0x9bd60d6FC99843207B8149f9190438C1F81BDdcD",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged BRC20 MNER",
     "symbol": "MNER",
     "chains": [
