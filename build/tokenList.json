@@ -56,6 +56,20 @@
     }
   },
   {
+    "name": "MerlinSwap Token",
+    "symbol": "MP",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mp.png",
+    "contracts": {
+      "4200": {
+        "address": "0xbd40c74cb5cf9f9252B3298230Cb916d80430bBa",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "HUHU CAT",
     "symbol": "HUHU",
     "chains": [

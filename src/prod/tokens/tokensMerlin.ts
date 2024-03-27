@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "MerlinSwap Token",
+        symbol: TokenSymbol.MP,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mp.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xbd40c74cb5cf9f9252B3298230Cb916d80430bBa', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "HUHU CAT",
         symbol: TokenSymbol.HUHU,
         chains: [ChainId.Merlin],
