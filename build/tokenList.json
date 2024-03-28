@@ -148,7 +148,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ing.svg",
     "contracts": {
       "4200": {
-        "address": "0x8fef71cb438bf47cee6b67db1928f8f7269dfdc7",
+        "address": "0x07884346a65F95276C2b0E56b17165b191ab2C49",
         "decimal": 18
       }
     }
