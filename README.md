@@ -8,6 +8,11 @@ To request that we add a token to the list,
 
 
 ## Usage
+
+```sh
+npm install
+```
+
 ### dev
 1、run `npm run-script build_symbolsDev` to merge symbols in ./src/dev/symbols/
 
