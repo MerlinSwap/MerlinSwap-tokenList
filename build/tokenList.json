@@ -98,6 +98,34 @@
     }
   },
   {
+    "name": "Merlin's Seal USDC",
+    "symbol": "M-USDC",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/musdc.svg",
+    "contracts": {
+      "4200": {
+        "address": "0x6b4ecada640f1b30dbdb68f77821a03a5f282ebe",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Merlin's Seal USDT",
+    "symbol": "M-USDT",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/musdt.svg",
+    "contracts": {
+      "4200": {
+        "address": "0x967aec3276b63c5e2262da9641db9dbebb07dc0d",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Bridged BRC20 RUFI",
     "symbol": "RUFI",
     "chains": [

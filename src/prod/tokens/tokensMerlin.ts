@@ -97,6 +97,30 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Merlin's Seal USDC",
+        symbol: TokenSymbol.MUSDC,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'musdc.svg',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x6b4ecada640f1b30dbdb68f77821a03a5f282ebe', 
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "Merlin's Seal USDT",
+        symbol: TokenSymbol.MUSDT,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'musdt.svg',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x967aec3276b63c5e2262da9641db9dbebb07dc0d', 
+                decimal: 6, 
+            },
+        },
+    },
+    {
         name: "Bridged BRC20 RUFI",
         symbol: TokenSymbol.RUFI,
         chains: [ChainId.Merlin],
