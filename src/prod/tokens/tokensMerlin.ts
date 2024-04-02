@@ -121,6 +121,42 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged BRC20 sats",
+        symbol: TokenSymbol.MSATS,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'msats.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x4DCb91Cc19AaDFE5a6672781EB09abAd00C19E4c', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged BRC20 rats",
+        symbol: TokenSymbol.MRATS,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mrats.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x69181A1f082ea83A152621e4FA527C936abFa501', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged BRC20 ordi",
+        symbol: TokenSymbol.MORDI,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mordi.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x0726523Eba12EdaD467c55a962842Ef358865559', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged BRC20 RUFI",
         symbol: TokenSymbol.RUFI,
         chains: [ChainId.Merlin],

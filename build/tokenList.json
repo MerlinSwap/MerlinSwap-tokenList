@@ -126,6 +126,48 @@
     }
   },
   {
+    "name": "Bridged BRC20 sats",
+    "symbol": "M-sats",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/msats.png",
+    "contracts": {
+      "4200": {
+        "address": "0x4DCb91Cc19AaDFE5a6672781EB09abAd00C19E4c",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged BRC20 rats",
+    "symbol": "M-rats",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mrats.png",
+    "contracts": {
+      "4200": {
+        "address": "0x69181A1f082ea83A152621e4FA527C936abFa501",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged BRC20 ordi",
+    "symbol": "M-ordi",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mordi.png",
+    "contracts": {
+      "4200": {
+        "address": "0x0726523Eba12EdaD467c55a962842Ef358865559",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged BRC20 RUFI",
     "symbol": "RUFI",
     "chains": [
