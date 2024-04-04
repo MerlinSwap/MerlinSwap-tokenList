@@ -42,6 +42,20 @@
     }
   },
   {
+    "name": "Solv BTC",
+    "symbol": "SolvBTC",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtc.png",
+    "contracts": {
+      "4200": {
+        "address": "0x41D9036454BE47d3745A823C4aaCD0e29cFB0f71",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "iZUMi Bond USD",
     "symbol": "iUSD",
     "chains": [

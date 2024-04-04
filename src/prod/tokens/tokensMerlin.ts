@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Solv BTC",
+        symbol: TokenSymbol.SOLVBTC,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'solvbtc.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x41D9036454BE47d3745A823C4aaCD0e29cFB0f71', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         chains: [ChainId.Merlin],

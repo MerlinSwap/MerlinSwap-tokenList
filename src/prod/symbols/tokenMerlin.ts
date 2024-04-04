@@ -3,6 +3,7 @@ export enum TokenSymbol {
     WBTC = 'WBTC',
     IUSD = 'iUSD',
     MBTC = 'M-BTC',
+    SOLVBTC = 'SolvBTC',
     MP = 'MP',
     BIUU = 'BIUU',
     HUHU = 'HUHU',
