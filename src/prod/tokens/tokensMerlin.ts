@@ -193,6 +193,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Escrow MerlinSwap Token",
+        symbol: TokenSymbol.ESMP,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'esmp.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x7126bd63713a7212792b08fa2c39d39190a4cf5b', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Jeff Token",
         symbol: TokenSymbol.JEFF,
         chains: [ChainId.Merlin],
