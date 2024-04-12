@@ -15,6 +15,7 @@ export enum TokenSymbol {
     MORDI = 'M-ordi',
     MNER = 'MNER',
     JEFF = 'JEFF',
+    MSTAR = 'MSTAR',
     ELXR = 'ELXR',
     SPELL = 'SPELL',
     ING = 'ING',
