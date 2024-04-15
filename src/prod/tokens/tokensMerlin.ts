@@ -216,18 +216,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Merlinstarter Token",
-        symbol: TokenSymbol.MSTAR,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'mstar.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x92609856F3C26037540DBD7f68930c445Da340A2', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "Merlinstarter Token",
+    //     symbol: TokenSymbol.MSTAR,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'mstar.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x92609856F3C26037540DBD7f68930c445Da340A2', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     {
         name: "Influpia Token",
         symbol: TokenSymbol.ING,
