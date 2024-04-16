@@ -238,6 +238,20 @@
     }
   },
   {
+    "name": "Merlinstarter Token",
+    "symbol": "MSTAR",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mstar.png",
+    "contracts": {
+      "4200": {
+        "address": "0x09401c470a76Ec07512EEDDEF5477BE74bac2338",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Influpia Token",
     "symbol": "ING",
     "chains": [
