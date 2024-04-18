@@ -72,18 +72,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "MERL Token",
-        symbol: TokenSymbol.MERL,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'merl.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "MERL Token",
+    //     symbol: TokenSymbol.MERL,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'merl.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     {
         name: "MerlinSwap Token",
         symbol: TokenSymbol.MP,
