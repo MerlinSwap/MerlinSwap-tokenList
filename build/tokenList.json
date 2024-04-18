@@ -70,6 +70,20 @@
     }
   },
   {
+    "name": "MERL Token",
+    "symbol": "MERL",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/merl.png",
+    "contracts": {
+      "4200": {
+        "address": "0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MerlinSwap Token",
     "symbol": "MP",
     "chains": [
@@ -247,6 +261,34 @@
     "contracts": {
       "4200": {
         "address": "0x09401c470a76Ec07512EEDDEF5477BE74bac2338",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged prc-20 pols",
+    "symbol": "POLS",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pols.png",
+    "contracts": {
+      "4200": {
+        "address": "0x4c67addF3AF13e84f5F4e4E54e8cF5D40AB2A36D",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged brc-20 bnbs",
+    "symbol": "BNBS",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnbs.png",
+    "contracts": {
+      "4200": {
+        "address": "0x33c70a08D0D427eE916576a7594b50d7F8f3FbE1",
         "decimal": 18
       }
     }

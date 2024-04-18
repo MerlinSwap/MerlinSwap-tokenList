@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "MERL Token",
+        symbol: TokenSymbol.MERL,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'merl.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "MerlinSwap Token",
         symbol: TokenSymbol.MP,
         chains: [ChainId.Merlin],
@@ -224,6 +236,30 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Merlin]: {
                 address: '0x09401c470a76Ec07512EEDDEF5477BE74bac2338', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged prc-20 pols",
+        symbol: TokenSymbol.POLS,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'pols.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x4c67addF3AF13e84f5F4e4E54e8cF5D40AB2A36D', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged brc-20 bnbs",
+        symbol: TokenSymbol.BNBS,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'bnbs.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x33c70a08D0D427eE916576a7594b50d7F8f3FbE1', 
                 decimal: 18, 
             },
         },
