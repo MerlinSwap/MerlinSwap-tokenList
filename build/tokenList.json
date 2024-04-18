@@ -266,7 +266,7 @@
     }
   },
   {
-    "name": "Bridged brc-20 bnbs",
+    "name": "Bridged bsc-20 bnbs",
     "symbol": "BNBS",
     "chains": [
       4200

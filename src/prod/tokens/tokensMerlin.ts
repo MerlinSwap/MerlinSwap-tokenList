@@ -253,7 +253,7 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "Bridged brc-20 bnbs",
+        name: "Bridged bsc-20 bnbs",
         symbol: TokenSymbol.BNBS,
         chains: [ChainId.Merlin],
         icon: baseURL + 'bnbs.png',
