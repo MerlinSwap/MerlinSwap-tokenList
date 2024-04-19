@@ -70,6 +70,20 @@
     }
   },
   {
+    "name": "MERL Token",
+    "symbol": "MERL",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/merl.png",
+    "contracts": {
+      "4200": {
+        "address": "0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MerlinSwap Token",
     "symbol": "MP",
     "chains": [
