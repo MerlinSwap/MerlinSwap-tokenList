@@ -266,6 +266,20 @@
     }
   },
   {
+    "name": "MDBL Token",
+    "symbol": "MDBL",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mdbl.png",
+    "contracts": {
+      "4200": {
+        "address": "0x8Aed42735027aa6d97023D8196B084eCFbA701af",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged prc-20 pols",
     "symbol": "POLS",
     "chains": [

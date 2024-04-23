@@ -38,4 +38,5 @@ export enum TokenSymbol {
     DRAK = 'DRAK',
     RUFI = 'RUFI',
     ESMP = 'esMP',
+    MDBL = 'MDBL',
 }

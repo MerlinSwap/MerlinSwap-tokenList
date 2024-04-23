@@ -241,6 +241,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "MDBL Token",
+        symbol: TokenSymbol.MDBL,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mdbl.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x8Aed42735027aa6d97023D8196B084eCFbA701af', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged prc-20 pols",
         symbol: TokenSymbol.POLS,
         chains: [ChainId.Merlin],
