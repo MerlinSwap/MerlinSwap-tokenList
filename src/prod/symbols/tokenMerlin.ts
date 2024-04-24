@@ -39,4 +39,11 @@ export enum TokenSymbol {
     RUFI = 'RUFI',
     ESMP = 'esMP',
     MDBL = 'MDBL',
+    SATS = 'sats',
+    ORDI = 'ordi',
+    RATS = 'rats',
+    AINN = 'AINN',
+    RCSV = 'rcsv',
+    BTCS = 'BTCs',
+    MICE = 'mice',
 }
