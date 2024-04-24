@@ -238,6 +238,76 @@
     }
   },
   {
+    "name": "Bridged BRC20 sats",
+    "symbol": "sats",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sats.png",
+    "contracts": {
+      "4200": {
+        "address": "0x4dbe39D987665d0CB9F921B50B2673346b87cAfA",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged BRC20 ordi",
+    "symbol": "ordi",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ordi.png",
+    "contracts": {
+      "4200": {
+        "address": "0x7dcb50b2180BC896Da1200D2726a88AF5D2cBB5A",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged BRC20 rats",
+    "symbol": "rats",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rats.png",
+    "contracts": {
+      "4200": {
+        "address": "0x1411626970e70f5b5d3351E339B58F61BDC68073",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged BRC20 rcsv",
+    "symbol": "rcsv",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rcsv.png",
+    "contracts": {
+      "4200": {
+        "address": "0x4a7aa0d04b36cd5cecaac9828de84f70346b840d",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged BRC20 BTCs",
+    "symbol": "BTCs",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btcs.png",
+    "contracts": {
+      "4200": {
+        "address": "0x24C1BD5c41D0b0813730B5895e9F343FB8477BEA",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Jeff Token",
     "symbol": "JEFF",
     "chains": [
@@ -345,48 +415,6 @@
     "contracts": {
       "4200": {
         "address": "0x1dd67628db8661186de74a3adc6e3f44def5709e",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "King Arthur Token",
-    "symbol": "ART",
-    "chains": [
-      4200
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/art.png",
-    "contracts": {
-      "4200": {
-        "address": "0xdbbc61004663f0116dd5ae5751436c722b7168e6",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "MRC404 Token",
-    "symbol": "MRC404",
-    "chains": [
-      4200
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mrc404.png",
-    "contracts": {
-      "4200": {
-        "address": "0x6df1b05ac85007bcd4f25aca7ab505415b3d51dc",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "RAT404 Token",
-    "symbol": "RAT404",
-    "chains": [
-      4200
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rat404.png",
-    "contracts": {
-      "4200": {
-        "address": "0xbf108e20fd47995b2b1a316db76c1c145e5bdeac",
         "decimal": 18
       }
     }
@@ -527,20 +555,6 @@
     "contracts": {
       "4200": {
         "address": "0x62e99191071fc1c5947cf1e21aa95708dcc51adb",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Drak Token",
-    "symbol": "DRAK",
-    "chains": [
-      4200
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/drak.png",
-    "contracts": {
-      "4200": {
-        "address": "0xc69a8ef7da38fb6bf035c38ea4a0a5e0a529378d",
         "decimal": 18
       }
     }

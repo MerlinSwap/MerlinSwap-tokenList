@@ -217,6 +217,66 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged BRC20 sats",
+        symbol: TokenSymbol.SATS,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'sats.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x4dbe39D987665d0CB9F921B50B2673346b87cAfA', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged BRC20 ordi",
+        symbol: TokenSymbol.ORDI,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'ordi.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x7dcb50b2180BC896Da1200D2726a88AF5D2cBB5A', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged BRC20 rats",
+        symbol: TokenSymbol.RATS,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'rats.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x1411626970e70f5b5d3351E339B58F61BDC68073', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged BRC20 rcsv",
+        symbol: TokenSymbol.RCSV,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'rcsv.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x4a7aa0d04b36cd5cecaac9828de84f70346b840d', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Bridged BRC20 BTCs",
+        symbol: TokenSymbol.BTCS,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'btcs.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x24C1BD5c41D0b0813730B5895e9F343FB8477BEA', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Jeff Token",
         symbol: TokenSymbol.JEFF,
         chains: [ChainId.Merlin],
@@ -325,42 +385,42 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "King Arthur Token",
-        symbol: TokenSymbol.ART,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'art.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0xdbbc61004663f0116dd5ae5751436c722b7168e6', 
-                decimal: 18, 
-            },
-        },
-    },
-    {
-        name: "MRC404 Token",
-        symbol: TokenSymbol.MRC404,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'mrc404.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x6df1b05ac85007bcd4f25aca7ab505415b3d51dc', 
-                decimal: 18, 
-            },
-        },
-    },
-    {
-        name: "RAT404 Token",
-        symbol: TokenSymbol.RAT404,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'rat404.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0xbf108e20fd47995b2b1a316db76c1c145e5bdeac', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "King Arthur Token",
+    //     symbol: TokenSymbol.ART,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'art.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0xdbbc61004663f0116dd5ae5751436c722b7168e6', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "MRC404 Token",
+    //     symbol: TokenSymbol.MRC404,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'mrc404.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x6df1b05ac85007bcd4f25aca7ab505415b3d51dc', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "RAT404 Token",
+    //     symbol: TokenSymbol.RAT404,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'rat404.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0xbf108e20fd47995b2b1a316db76c1c145e5bdeac', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     {
         name: "BIUU Token",
         symbol: TokenSymbol.BIUU,
@@ -493,16 +553,16 @@ export const tokens: TokenInfo[] = [
     //         },
     //     },
     // },
-    {
-        name: "Drak Token",
-        symbol: TokenSymbol.DRAK,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'drak.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0xc69a8ef7da38fb6bf035c38ea4a0a5e0a529378d', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "Drak Token",
+    //     symbol: TokenSymbol.DRAK,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'drak.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0xc69a8ef7da38fb6bf035c38ea4a0a5e0a529378d', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
 ]
