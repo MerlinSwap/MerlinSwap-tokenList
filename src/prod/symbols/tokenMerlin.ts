@@ -46,4 +46,5 @@ export enum TokenSymbol {
     RCSV = 'rcsv',
     BTCS = 'BTCs',
     MICE = 'mice',
+    DOG = 'DOG•GO•TO•THE•MOON',
 }

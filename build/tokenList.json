@@ -308,6 +308,20 @@
     }
   },
   {
+    "name": "Bridged Runes DOG•GO•TO•THE•MOON",
+    "symbol": "DOG•GO•TO•THE•MOON",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dogtothemoon.png",
+    "contracts": {
+      "4200": {
+        "address": "0x32A4b8b10222F85301874837F27F4c416117B811",
+        "decimal": 5
+      }
+    }
+  },
+  {
     "name": "Jeff Token",
     "symbol": "JEFF",
     "chains": [

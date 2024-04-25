@@ -46,4 +46,5 @@ AINN='AINN',
 RCSV='rcsv',
 BTCS='BTCs',
 MICE='mice',
+DOG='DOG•GO•TO•THE•MOON',
 }
