@@ -289,6 +289,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged Runes LOBO•THE•WOLF•PUP",
+        symbol: TokenSymbol.WOLF,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'lobothewolfpup.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x9458eA21932515dd0E82543891068F065B88A98a', 
+                decimal: 8, 
+            },
+        },
+    },
+    {
         name: "Jeff Token",
         symbol: TokenSymbol.JEFF,
         chains: [ChainId.Merlin],

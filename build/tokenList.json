@@ -322,6 +322,20 @@
     }
   },
   {
+    "name": "Bridged Runes LOBO•THE•WOLF•PUP",
+    "symbol": "LOBO•THE•WOLF•PUP",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lobothewolfpup.png",
+    "contracts": {
+      "4200": {
+        "address": "0x9458eA21932515dd0E82543891068F065B88A98a",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Jeff Token",
     "symbol": "JEFF",
     "chains": [
