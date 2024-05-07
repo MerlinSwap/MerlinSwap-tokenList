@@ -364,20 +364,6 @@
     }
   },
   {
-    "name": "MAGE Token",
-    "symbol": "MAGE",
-    "chains": [
-      4200
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mage.png",
-    "contracts": {
-      "4200": {
-        "address": "0x39049455dAD0d8Fd2f81ca033C360a219Fb76f93",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "MDBL Token",
     "symbol": "MDBL",
     "chains": [
