@@ -325,6 +325,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "MAGE Token",
+        symbol: TokenSymbol.MAGE,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'mage.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x39049455dAD0d8Fd2f81ca033C360a219Fb76f93', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "MDBL Token",
         symbol: TokenSymbol.MDBL,
         chains: [ChainId.Merlin],

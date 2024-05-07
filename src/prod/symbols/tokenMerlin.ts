@@ -48,4 +48,5 @@ export enum TokenSymbol {
     MICE = 'mice',
     DOG = 'DOG•GO•TO•THE•MOON',
     WOLF = 'LOBO•THE•WOLF•PUP',
+    MAGE = 'MAGE',
 }
