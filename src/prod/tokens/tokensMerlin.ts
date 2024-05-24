@@ -409,18 +409,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "DRAGON Token",
-        symbol: TokenSymbol.DRAGON,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'dragonmerlin.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x1dd67628db8661186de74a3adc6e3f44def5709e', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "DRAGON Token",
+    //     symbol: TokenSymbol.DRAGON,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'dragonmerlin.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x1dd67628db8661186de74a3adc6e3f44def5709e', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     // {
     //     name: "King Arthur Token",
     //     symbol: TokenSymbol.ART,
@@ -457,54 +457,54 @@ export const tokens: TokenInfo[] = [
     //         },
     //     },
     // },
-    {
-        name: "BIUU Token",
-        symbol: TokenSymbol.BIUU,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'biuu.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x3cFD33fD6f670ebBf63434D4b09DcA6D403aEFea', 
-                decimal: 18, 
-            },
-        },
-    },
-    {
-        name: "Wizard Token",
-        symbol: TokenSymbol.WIZARD,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'wizard.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x2503d56065a1369d7270dc2038c16a113699454d', 
-                decimal: 18, 
-            },
-        },
-    },
-    {
-        name: "Merlin Pad Token",
-        symbol: TokenSymbol.MERLINPAD,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'merlinpad.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x5782d6FdDFE62cb1650FE42582Ef8E37EAEA03E2', 
-                decimal: 18, 
-            },
-        },
-    },
-    {
-        name: "Merlin Meme Token (Meme)",
-        symbol: TokenSymbol.MERLINMEME,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'merlinmeme.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x402b2e84CB09b08e18Bd47636594Afb789401ddc', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "BIUU Token",
+    //     symbol: TokenSymbol.BIUU,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'biuu.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x3cFD33fD6f670ebBf63434D4b09DcA6D403aEFea', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "Wizard Token",
+    //     symbol: TokenSymbol.WIZARD,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'wizard.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x2503d56065a1369d7270dc2038c16a113699454d', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "Merlin Pad Token",
+    //     symbol: TokenSymbol.MERLINPAD,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'merlinpad.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x5782d6FdDFE62cb1650FE42582Ef8E37EAEA03E2', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "Merlin Meme Token (Meme)",
+    //     symbol: TokenSymbol.MERLINMEME,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'merlinmeme.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x402b2e84CB09b08e18Bd47636594Afb789401ddc', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     {
         name: "The Grand VOYA Sailor",
         symbol: TokenSymbol.SAILOR,
@@ -517,18 +517,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "SPELL Token",
-        symbol: TokenSymbol.SPELL,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'spell.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0xcd88e36a9ce94e4c36f08b0b8086a80639e11e7a', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "SPELL Token",
+    //     symbol: TokenSymbol.SPELL,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'spell.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0xcd88e36a9ce94e4c36f08b0b8086a80639e11e7a', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     {
         name: "Merlin Ball Token",
         symbol: TokenSymbol.BALL,
@@ -541,30 +541,30 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Merlin Box Token",
-        symbol: TokenSymbol.MERLINBOX,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'merlinbox.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0x63c2e663a6cfb0f5568c84a1c8134acbe1b88bec', 
-                decimal: 18, 
-            },
-        },
-    },
-    {
-        name: "Merlin Land Token",
-        symbol: TokenSymbol.MERLINLAND,
-        chains: [ChainId.Merlin],
-        icon: baseURL + 'merlinland.png',
-        contracts: {
-            [ChainId.Merlin]: {
-                address: '0xf0db39a5e37eb2df2d2b968f3fc8e5d7a9969dea', 
-                decimal: 18, 
-            },
-        },
-    },
+    // {
+    //     name: "Merlin Box Token",
+    //     symbol: TokenSymbol.MERLINBOX,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'merlinbox.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0x63c2e663a6cfb0f5568c84a1c8134acbe1b88bec', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "Merlin Land Token",
+    //     symbol: TokenSymbol.MERLINLAND,
+    //     chains: [ChainId.Merlin],
+    //     icon: baseURL + 'merlinland.png',
+    //     contracts: {
+    //         [ChainId.Merlin]: {
+    //             address: '0xf0db39a5e37eb2df2d2b968f3fc8e5d7a9969dea', 
+    //             decimal: 18, 
+    //         },
+    //     },
+    // },
     {
         name: "Owl Token",
         symbol: TokenSymbol.OWL,
