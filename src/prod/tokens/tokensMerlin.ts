@@ -301,6 +301,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged Runes RUNES•X•BITCOIN",
+        symbol: TokenSymbol.XBITCOIN,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'runesxbitcoin.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x803e4c37f5867dbdcf7f717ce2c09a94e5800ae0', 
+                decimal: 0, 
+            },
+        },
+    },
+    {
         name: "Jeff Token",
         symbol: TokenSymbol.JEFF,
         chains: [ChainId.Merlin],
