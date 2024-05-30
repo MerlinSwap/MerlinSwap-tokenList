@@ -313,6 +313,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "BITUSD Token",
+        symbol: TokenSymbol.BITUSD,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'bitusd.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xC2EB7Ea813e10a46a01628df848299Fb3312B0cE', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Jeff Token",
         symbol: TokenSymbol.JEFF,
         chains: [ChainId.Merlin],

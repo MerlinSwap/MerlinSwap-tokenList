@@ -50,4 +50,5 @@ export enum TokenSymbol {
     WOLF = 'LOBO•THE•WOLF•PUP',
     MAGE = 'MAGE',
     XBITCOIN = 'RUNES•X•BITCOIN',
+    BITUSD = 'bitusd',
 }
