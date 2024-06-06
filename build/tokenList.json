@@ -308,6 +308,20 @@
     }
   },
   {
+    "name": "Bridged Runes THE•BITMAP•TOKEN",
+    "symbol": "THE•BITMAP•TOKEN",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bitmap.png",
+    "contracts": {
+      "4200": {
+        "address": "0x7b0400231Cddf8a7ACa78D8c0483890cd0c6fFD6",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged Runes DOG•GO•TO•THE•MOON",
     "symbol": "DOG•GO•TO•THE•MOON",
     "chains": [

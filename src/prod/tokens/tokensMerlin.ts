@@ -277,6 +277,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged Runes THE•BITMAP•TOKEN",
+        symbol: TokenSymbol.BITMAP,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'bitmap.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x7b0400231Cddf8a7ACa78D8c0483890cd0c6fFD6', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged Runes DOG•GO•TO•THE•MOON",
         symbol: TokenSymbol.DOG,
         chains: [ChainId.Merlin],

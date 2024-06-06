@@ -51,4 +51,5 @@ export enum TokenSymbol {
     MAGE = 'MAGE',
     XBITCOIN = 'RUNES•X•BITCOIN',
     BITUSD = 'bitusd',
+    BITMAP = 'THE•BITMAP•TOKEN',
 }
