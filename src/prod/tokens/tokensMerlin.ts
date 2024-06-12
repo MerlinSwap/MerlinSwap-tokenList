@@ -301,6 +301,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged Runes RUNE•FINANCIAL",
+        symbol: TokenSymbol.RUFIRUNE,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'rufi.svg',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x48E6AcA1B480dc98E2CaC560B10c47CB35eE838c', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged Runes LOBO•THE•WOLF•PUP",
         symbol: TokenSymbol.WOLF,
         chains: [ChainId.Merlin],

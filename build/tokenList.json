@@ -336,6 +336,20 @@
     }
   },
   {
+    "name": "Bridged Runes RUNE•FINANCIAL",
+    "symbol": "RUNE•FINANCIAL",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rufi.svg",
+    "contracts": {
+      "4200": {
+        "address": "0x48E6AcA1B480dc98E2CaC560B10c47CB35eE838c",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged Runes LOBO•THE•WOLF•PUP",
     "symbol": "LOBO•THE•WOLF•PUP",
     "chains": [
