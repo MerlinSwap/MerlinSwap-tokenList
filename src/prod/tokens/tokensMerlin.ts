@@ -181,6 +181,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged BRC20 xmonk",
+        symbol: TokenSymbol.XMONK,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'xmonk.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x7460c3dfaD7dFcDB366d52707De3026fc4C4aa3b', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged BRC20 RUFI",
         symbol: TokenSymbol.RUFI,
         chains: [ChainId.Merlin],

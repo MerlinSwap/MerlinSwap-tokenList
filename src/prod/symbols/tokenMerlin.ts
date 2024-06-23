@@ -54,4 +54,5 @@ export enum TokenSymbol {
     //BITMAP = 'THE•BITMAP•TOKEN',
     BITMAP = 'BITMAP',
     RUFIRUNE = 'RUNE•FINANCIAL',
+    XMONK = 'xmonk',
 }
