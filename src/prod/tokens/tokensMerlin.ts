@@ -313,6 +313,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged Runes NUSD•NUSD•NUSD•NUSD",
+        symbol: TokenSymbol.NUSD,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'nusd.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x3addc04734ac82e6a03947187d400DdcD1995546', 
+                decimal: 0, 
+            },
+        },
+    },
+    {
         name: "Bridged Runes RUNE•FINANCIAL",
         symbol: TokenSymbol.RUFIRUNE,
         chains: [ChainId.Merlin],

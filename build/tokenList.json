@@ -350,6 +350,20 @@
     }
   },
   {
+    "name": "Bridged Runes NUSD•NUSD•NUSD•NUSD",
+    "symbol": "NUSD•NUSD•NUSD•NUSD",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/nusd.png",
+    "contracts": {
+      "4200": {
+        "address": "0x3addc04734ac82e6a03947187d400DdcD1995546",
+        "decimal": 0
+      }
+    }
+  },
+  {
     "name": "Bridged Runes RUNE•FINANCIAL",
     "symbol": "RUNE•FINANCIAL",
     "chains": [
