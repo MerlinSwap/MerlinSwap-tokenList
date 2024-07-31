@@ -350,7 +350,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Bridged Runes BAMK•OF•NAKAMOTO•DOLLAR",
-        symbol: TokenSymbol.XBITCOIN,
+        symbol: TokenSymbol.BAMK,
         chains: [ChainId.Merlin],
         icon: baseURL + 'bamk.png',
         contracts: {
