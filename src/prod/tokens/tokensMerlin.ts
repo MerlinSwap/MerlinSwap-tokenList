@@ -349,6 +349,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged Runes BAMK•OF•NAKAMOTO•DOLLAR",
+        symbol: TokenSymbol.XBITCOIN,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'bamk.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xE6b1aDb4d097898106Fd6829cCfaa5C9f7117Bca', 
+                decimal: 8, 
+            },
+        },
+    },
+    {
         name: "Bridged Runes RUNES•X•BITCOIN",
         symbol: TokenSymbol.XBITCOIN,
         chains: [ChainId.Merlin],

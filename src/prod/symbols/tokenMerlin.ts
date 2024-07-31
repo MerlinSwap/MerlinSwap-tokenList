@@ -56,4 +56,5 @@ export enum TokenSymbol {
     RUFIRUNE = 'RUNE•FINANCIAL',
     XMONK = 'xmonk',
     NUSD = 'NUSD•NUSD•NUSD•NUSD',
+    BAMK = 'BAMK•OF•NAKAMOTO•DOLLAR',
 }
