@@ -56,6 +56,20 @@
     }
   },
   {
+    "name": "uniBTC",
+    "symbol": "uniBTC",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/unibtc.png",
+    "contracts": {
+      "4200": {
+        "address": "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "iZUMi Bond USD",
     "symbol": "iUSD",
     "chains": [

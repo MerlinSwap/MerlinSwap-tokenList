@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "uniBTC",
+        symbol: TokenSymbol.UNIBTC,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'unibtc.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x93919784C523f39CACaa98Ee0a9d96c3F32b593e', 
+                decimal: 8, 
+            },
+        },
+    },
+    {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         chains: [ChainId.Merlin],
