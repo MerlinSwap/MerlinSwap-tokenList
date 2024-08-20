@@ -58,4 +58,5 @@ export enum TokenSymbol {
     NUSD = 'NUSD•NUSD•NUSD•NUSD',
     BAMK = 'BAMK•OF•NAKAMOTO•DOLLAR',
     UNIBTC = 'uniBTC',
+    GOODS = 'UNCOMMON•GOODS',
 }

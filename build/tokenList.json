@@ -378,6 +378,20 @@
     }
   },
   {
+    "name": "Bridged Runes UNCOMMON•GOODS",
+    "symbol": "UNCOMMON•GOODS",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/goods.png",
+    "contracts": {
+      "4200": {
+        "address": "0xA2B1f801F67850a536969be0e620aE87b0dA0a2A",
+        "decimal": 0
+      }
+    }
+  },
+  {
     "name": "Bridged Runes RUNE•FINANCIAL",
     "symbol": "RUNE•FINANCIAL",
     "chains": [
