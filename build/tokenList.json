@@ -518,6 +518,20 @@
     }
   },
   {
+    "name": "RMNER Token",
+    "symbol": "RMNER",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rmner.png",
+    "contracts": {
+      "4200": {
+        "address": "0x4fd67c2d9e8c4fdd9c66954bafe124ca50fc1819",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged prc-20 pols",
     "symbol": "POLS",
     "chains": [

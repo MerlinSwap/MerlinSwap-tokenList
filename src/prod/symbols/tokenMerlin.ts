@@ -15,6 +15,7 @@ export enum TokenSymbol {
     MSATS = 'M-sats',
     MORDI = 'M-ordi',
     MNER = 'MNER',
+    RMNER = 'RMNER',
     POLS = 'POLS',
     BNBS = 'BNBS',
     JEFF = 'JEFF',

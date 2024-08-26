@@ -457,6 +457,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "RMNER Token",
+        symbol: TokenSymbol.RMNER,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'rmner.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x4fd67c2d9e8c4fdd9c66954bafe124ca50fc1819', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged prc-20 pols",
         symbol: TokenSymbol.POLS,
         chains: [ChainId.Merlin],
