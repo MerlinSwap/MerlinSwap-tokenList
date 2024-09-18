@@ -157,6 +157,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "SolvBTC Ethena",
+        symbol: TokenSymbol.SOLVBTCENA,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'solvbtcena.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x88c618b2396c1a11a6aabd1bf89228a08462f2d2', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged BRC20 sats",
         symbol: TokenSymbol.MSATS,
         chains: [ChainId.Merlin],

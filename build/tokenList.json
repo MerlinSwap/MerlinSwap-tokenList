@@ -168,6 +168,20 @@
     }
   },
   {
+    "name": "SolvBTC Ethena",
+    "symbol": "SolvBTC.ENA",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtcena.png",
+    "contracts": {
+      "4200": {
+        "address": "0x88c618b2396c1a11a6aabd1bf89228a08462f2d2",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged BRC20 sats",
     "symbol": "M-sats",
     "chains": [

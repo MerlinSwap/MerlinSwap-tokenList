@@ -14,6 +14,7 @@ export enum TokenSymbol {
     MRATS = 'M-rats',
     MSATS = 'M-sats',
     MORDI = 'M-ordi',
+    SOLVBTCENA = 'SolvBTC.ENA',
     MNER = 'MNER',
     RMNER = 'RMNER',
     POLS = 'POLS',
