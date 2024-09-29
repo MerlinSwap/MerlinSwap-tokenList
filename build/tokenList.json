@@ -364,6 +364,20 @@
     }
   },
   {
+    "name": "Bridged Runes THIS•SONG•ABOUT•NFT",
+    "symbol": "NFT",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/nftmerlin.png",
+    "contracts": {
+      "4200": {
+        "address": "0xfe61fd35773C11Ab5e0738e6374837670341befc",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged Runes DOG•GO•TO•THE•MOON",
     "symbol": "DOG•GO•TO•THE•MOON",
     "chains": [

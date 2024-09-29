@@ -325,6 +325,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged Runes THIS•SONG•ABOUT•NFT",
+        symbol: TokenSymbol.NFT,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'nftmerlin.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0xfe61fd35773C11Ab5e0738e6374837670341befc', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged Runes DOG•GO•TO•THE•MOON",
         symbol: TokenSymbol.DOG,
         chains: [ChainId.Merlin],
