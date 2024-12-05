@@ -182,6 +182,20 @@
     }
   },
   {
+    "name": "Party Token",
+    "symbol": "Party",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/party.png",
+    "contracts": {
+      "4200": {
+        "address": "0x4D9882a3BB13cc086367D0aE964367e6B7ea246f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged BRC20 sats",
     "symbol": "M-sats",
     "chains": [

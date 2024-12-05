@@ -169,6 +169,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Party Token",
+        symbol: TokenSymbol.PARTY,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'party.png',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x4D9882a3BB13cc086367D0aE964367e6B7ea246f', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged BRC20 sats",
         symbol: TokenSymbol.MSATS,
         chains: [ChainId.Merlin],
