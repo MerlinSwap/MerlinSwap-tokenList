@@ -63,4 +63,5 @@ export enum TokenSymbol {
     UNIBTC = 'uniBTC',
     GOODS = 'UNCOMMON•GOODS',
     PARTY = 'Party',
+    AVL = 'AVL',
 }

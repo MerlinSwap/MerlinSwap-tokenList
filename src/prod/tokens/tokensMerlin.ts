@@ -301,6 +301,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "AVL",
+        symbol: TokenSymbol.AVL,
+        chains: [ChainId.Merlin],
+        icon: baseURL + 'avl.svg',
+        contracts: {
+            [ChainId.Merlin]: {
+                address: '0x916addd975718d307868b814e0a9bbbedbd7ab17', 
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Bridged BRC20 rcsv",
         symbol: TokenSymbol.RCSV,
         chains: [ChainId.Merlin],

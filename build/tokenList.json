@@ -336,6 +336,20 @@
     }
   },
   {
+    "name": "AVL",
+    "symbol": "AVL",
+    "chains": [
+      4200
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/avl.svg",
+    "contracts": {
+      "4200": {
+        "address": "0x916addd975718d307868b814e0a9bbbedbd7ab17",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged BRC20 rcsv",
     "symbol": "rcsv",
     "chains": [
